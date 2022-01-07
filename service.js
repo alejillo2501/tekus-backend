@@ -80,9 +80,9 @@ module.exports = {
         
         var body = {
             item: dItem,
-            COP: COP,
-            EUR: EUR,
-            USD: USD
+            COP: COP.data,
+            EUR: EUR.data,
+            USD: USD.data
         }
 
         return body;
