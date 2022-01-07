@@ -8,6 +8,7 @@ const app = express();
 const allowedOrigins = [
     'capacitor://localhost',
     'capacitor-electron://*',
+    'capacitor-electron://-',
     'ionic://localhost',
     'http://localhost',
     'http://localhost:8080',
